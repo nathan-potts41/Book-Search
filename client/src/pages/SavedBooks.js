@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Jumbotron, Container, CardColumns, Card, Button } from 'react-bootstrap';
 import { useMutation, useQuery } from '@apollo/react-hooks';
 
@@ -24,7 +24,7 @@ const SavedBooks = () => {
     }
 
     try {
-      const response = await removeBook({
+      const { data } = await removeBook({
         variables: { bookId }
       });
 
@@ -35,7 +35,7 @@ const SavedBooks = () => {
   };
 
   // if data isn't here yet, say so
-  if (!loading) {
+  if (loading) {
     return <h2>LOADING...</h2>;
   }
 
