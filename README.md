@@ -1,10 +1,6 @@
-<h3 align="center">Book-Search</h3>
+<h1 align="center">Book-Search</h1>
 
 ---
-
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
 
 ## 📝 Table of Contents
 
@@ -13,11 +9,8 @@
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Contributors](#contributors)
-- [Acknowledgments](#acknowledgement)
 
 ## About <a name = "about"></a>
 
